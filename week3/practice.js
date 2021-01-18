@@ -1,5 +1,4 @@
-// # 1 - 3
-0
+// # 1
 var peopleWhoWantToSeeMadMaxFuryRoad = [
     {
         name: "Mike",
@@ -28,6 +27,26 @@ var peopleWhoWantToSeeMadMaxFuryRoad = [
     }
 ];
 
+for(let i = 0; i < peopleWhoWantToSeeMadMaxFuryRoad.length; i++) {
+    if( peopleWhoWantToSeeMadMaxFuryRoad[i].age >= 18) {
+        console.log("old enough");
+    }
+    else {
+        console.log('not old enough')
+    }
+}
+
+// #2
+for(let i = 0; i < peopleWhoWantToSeeMadMaxFuryRoad.length; i++) {
+    if( peopleWhoWantToSeeMadMaxFuryRoad[i].age >= 18) {
+        console.log(peopleWhoWantToSeeMadMaxFuryRoad[i].name + " is old enough");
+    }
+    else {
+        console.log(peopleWhoWantToSeeMadMaxFuryRoad[i].name + ' is not old enough');
+    }
+}
+
+// #3
 for ( var i = 0; i < peopleWhoWantToSeeMadMaxFuryRoad.length; i++ ) {
     if(peopleWhoWantToSeeMadMaxFuryRoad[i].age >= 18) { let userGender = peopleWhoWantToSeeMadMaxFuryRoad[i].gender === "male" ? "He's" : "She's"
         console.log(peopleWhoWantToSeeMadMaxFuryRoad[i].name + ' is old enough. ' + userGender + " good to see Mad Max Fury Road.");
