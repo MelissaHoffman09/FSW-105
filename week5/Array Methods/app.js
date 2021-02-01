@@ -14,7 +14,7 @@ var vegetables = ["carrot", "tomato", "pepper", "lettuce"];
     //console.log("Index of Orange: " + indexOfOrange);
 
 //Add that number to the end of the fruit array.
-    fruit.push(1);
+    fruit.push(indexOfOrange);
     //console.log(fruit);
 
 //Use the length property to find the length of the vegetable array.
@@ -22,7 +22,7 @@ var vegetables = ["carrot", "tomato", "pepper", "lettuce"];
     //console.log(vegetables)
 
 //Add that number to the end of the vegetable array.
-    vegetables.push(3);
+    vegetables.push(vegetables.length);
     //console.log(vegetables);
 
 //Put the two arrays together into one array. Fruit first. Call the new Array "food".
