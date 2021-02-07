@@ -10,8 +10,8 @@ Employee.prototype.printEmployeeForm = function() {
     console.log(this)
 }
 
-let kate = new Employee("Kate", "server", "$15/hr");
-let jill = new Employee("Jill", "bartender", "$18/hr");
+let kate = new Employee("Kate", "server", "$15/hr", "Full Time");
+let jill = new Employee("Jill", "bartender", "$18/hr", "Full Time");
 let nikki = new Employee("Nikki", "hostess", "$14/hr", "Part Time");
 
 kate.printEmployeeForm();
